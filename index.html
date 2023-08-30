@@ -15,7 +15,7 @@
 
 <style>
 
-    [class^="container"], [class^="navbar"], [class^="navbar"]{
+    [class^="container"], [class^="navbar"], [class^="col"]{
         background-color: brown;
         border: 1px solid black;
     }
@@ -62,7 +62,7 @@
                 <div class="row justify-content-center">
                     <!-- Colonna con immagine -->
                     <div class="col-4 col-lg-2 mt-xl-5 ">
-                        <img class="my-3" src="#" alt="#">PROVA
+                        <img class="my-3" src="img/avatar.svg" alt="User Avatar">PROVA
                     </div>
                     <!-- Colonna con titolo -->
                     <div class="col-12">
@@ -95,27 +95,27 @@
 
                     <!-- Prima immagine del portafoglio -->
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <img class="img-fluid rounded-3 mb-3" src="#" alt="#" >
+                        <img src="img/cabin.png" class="img-fluid rounded-3 mb-3" alt="cabin" />
                     </div>
                     <!-- Seconda immagine del portafoglio -->
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <img class="img-fluid rounded-3 mb-3" src="#" alt="#" >
+                        <img src="img/cake.png" class="img-fluid rounded-3 mb-3" alt="cake" />
                     </div>
                     <!-- Terza immagine del portafoglio -->
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <img class="img-fluid rounded-3 mb-3" src="#" alt="#" >
+                        <img src="img/circus.png" class="img-fluid rounded-3 mb-3" alt="circus" />
                     </div>
                     <!-- Quarta immagine del portafoglio -->
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <img class="img-fluid rounded-3 mb-3" src="#" alt="#" >
+                        <img src="img/game.png" class="img-fluid rounded-3 mb-3" alt="game" />
                     </div>
                     <!-- Quinta immagine del portafoglio -->
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <img class="img-fluid rounded-3 mb-3" src="#" alt="#" >
+                        <img src="img/safe.png" class="img-fluid rounded-3 mb-3" alt="safe" />
                     </div>
                     <!-- Sesta immagine del portafoglio -->
                     <div class="col-12 col-lg-6 col-xl-4">
-                        <img class="img-fluid rounded-3 mb-3" src="#" alt="#" >
+                        <img src="img/submarine.png" class="img-fluid rounded-3 mb-5" alt="submarine" />
                     </div>
                 </div>
             </div>
@@ -153,9 +153,9 @@
 
         <!-- Sezione Contact me -->
         <section class="bg-dark"> <!-- Da modificare -->
-            <div class="container text-center">
+            <div class="container">
                 <div class="row px-5 justify-content-center">
-                    <div class="col-12">
+                    <div class="col-12 text-center">
                         <!-- Colonna con titolo -->
                         <h3 class="mt-4 mt-xl-5">CONTACT ME</h3> <!-- Titolo -->
                         <div class="star mb-3">
@@ -192,7 +192,9 @@
                                 <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
                             </div>
                             <!-- Bottone di invio del modulo -->
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">
+                                Submit
+                            </button>
                         </form>
                     </div>
 
