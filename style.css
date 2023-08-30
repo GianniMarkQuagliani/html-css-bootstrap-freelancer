@@ -43,3 +43,14 @@
     padding: 0 0 30px;
 }
   
+.btn-primary{
+    background: #1abc9c;
+    border: hidden;
+    transition: .5s
+}
+  
+.btn-primary:hover{
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
