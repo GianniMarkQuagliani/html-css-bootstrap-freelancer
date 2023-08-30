@@ -37,3 +37,9 @@
   box-shadow: none;
   outline: none;
 }
+
+.contact-form textarea{
+    height: 200px;
+    padding: 0 0 30px;
+}
+  
