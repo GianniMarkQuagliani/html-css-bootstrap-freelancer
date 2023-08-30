@@ -13,19 +13,12 @@
     <title>Bootstrap Freelancer</title>
 </head>
 
-<style>
 
-    [class^="container"], [class^="navbar"], [class^="col"]{
-        background-color: brown;
-        border: 1px solid black;
-    }
-    
-</style>
 
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container">
                 <!-- Logo o nome del sito -->
                 <a href="#" class="navbar-brand">Start Bootstrap</a>
@@ -57,12 +50,12 @@
     <!-- MAIN -->
     <main>
         <!-- Start bootstrap -->
-        <section class="bg-dark"> <!-- Da modificare -->
+        <section class="bg-green">
             <div class="container text-center">
                 <div class="row justify-content-center">
                     <!-- Colonna con immagine -->
                     <div class="col-4 col-lg-2 mt-xl-5 ">
-                        <img class="my-3" src="img/avatar.svg" alt="User Avatar">PROVA
+                        <img class="my-3" src="img/avatar.svg" alt="User Avatar">
                     </div>
                     <!-- Colonna con titolo -->
                     <div class="col-12">
@@ -81,7 +74,7 @@
         </section>
 
         <!-- Sezione del portafoglio -->
-        <section class="bg-dark"> <!-- Da modificare -->
+        <section>
             <div class="container text-center">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -94,35 +87,41 @@
                     </div>
 
                     <!-- Prima immagine del portafoglio -->
-                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-4 portfolio">
                         <img src="img/cabin.png" class="img-fluid rounded-3 mb-3" alt="cabin" />
+                        <i class="bi bi-plus"></i>
                     </div>
                     <!-- Seconda immagine del portafoglio -->
-                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-4 portfolio">
                         <img src="img/cake.png" class="img-fluid rounded-3 mb-3" alt="cake" />
+                        <i class="bi bi-plus"></i>
                     </div>
                     <!-- Terza immagine del portafoglio -->
-                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-4 portfolio">
                         <img src="img/circus.png" class="img-fluid rounded-3 mb-3" alt="circus" />
+                        <i class="bi bi-plus"></i>
                     </div>
                     <!-- Quarta immagine del portafoglio -->
-                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-4 portfolio">
                         <img src="img/game.png" class="img-fluid rounded-3 mb-3" alt="game" />
+                        <i class="bi bi-plus"></i>
                     </div>
                     <!-- Quinta immagine del portafoglio -->
-                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-4 portfolio">
                         <img src="img/safe.png" class="img-fluid rounded-3 mb-3" alt="safe" />
+                        <i class="bi bi-plus"></i>
                     </div>
                     <!-- Sesta immagine del portafoglio -->
-                    <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-4 portfolio">
                         <img src="img/submarine.png" class="img-fluid rounded-3 mb-5" alt="submarine" />
+                        <i class="bi bi-plus"></i>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Sezione About -->
-        <section class="bg-dark"> <!-- Da modificare -->
+        <section class="bg-green">
             <div class="container text-center">
                 <div class="row px-5 justify-content-center">
                     <!-- Colonna con titolo -->
@@ -152,7 +151,7 @@
         </section>
 
         <!-- Sezione Contact me -->
-        <section class="bg-dark"> <!-- Da modificare -->
+        <section>
             <div class="container">
                 <div class="row px-5 justify-content-center">
                     <div class="col-12 text-center">
@@ -169,32 +168,31 @@
                     
                     <div class="col-10">
                     <!-- Form per il modulo di contatto -->
-                        <form>
+                        <form class="contact-form">
                             <!-- Campo per il nome -->
-                            <div class="contact-form">
+                            <div>
                                 <label for="name" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="name" placeholder="Enter your name">
                             </div>
                         
                             <!-- Campo per l'email -->
-                            <div class="contact-form">
+                            <div>
                                 <label for="email" class="form-label">Email Address</label>
                                 <input type="email" class="form-control" id="email" placeholder="Enter your email">
                             </div>
                             <!-- Campo per il numero di telefono -->
-                            <div class="contact-form">
+                            <div>
                                 <label for="phone" class="form-label">Phone Number</label>
                                 <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
                             </div>
                             <!-- Campo per il messaggio -->
-                            <div class="contact-form">
+                            <div>
                                 <label for="message" class="form-label">Message</label>
                                 <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                                <!-- Bottone di invio del modulo -->
+                                <button type="submit" class="btn btn-primary">Send</button>
                             </div>
-                            <!-- Bottone di invio del modulo -->
-                            <button type="submit" class="btn btn-primary">
-                                Submit
-                            </button>
+                            
                         </form>
                     </div>
 
