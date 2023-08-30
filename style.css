@@ -12,3 +12,15 @@
 .star{
     font-size: 2rem;
 }
+
+.contact-form label{
+    opacity: 0
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form textarea:focus {
+  box-shadow: none;
+  border-bottom: solid 2px #6c757d;;
+}
