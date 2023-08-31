@@ -26,7 +26,7 @@
 .contact-form input[type="tel"]:focus,
 .contact-form textarea:focus{
   box-shadow: none;
-  border-bottom: solid 2px #6c757d;;
+  border-bottom: solid 2px #6c757d;
 }
 
 /* Stile dei campi del modulo di contatto */
@@ -122,4 +122,8 @@
 
 .text-green{
   color: #1abc9c;
+}
+
+.mb-15o{
+  margin-bottom: 15px;
 }
