@@ -65,7 +65,7 @@
 
 
 /* Stile di sfondo scuro */
-.bg-dark{
+.bg-darky{
     background-color: #2c3e50;
     color: white;
 }
@@ -90,13 +90,13 @@
 }
 
 /* Stile dell'immagine nel portafoglio */
-.portfolioimg{
+.portfolio img{
   border-radius: 15px;
   transition: filter .7s;
 }
 
 /* Stile delle icone nel portafoglio */
-.portfolio-box i{
+.portfolio i{
   position: absolute;
   top: 60%;
   left: 50%;
@@ -109,13 +109,17 @@
 }
 
 /* Effetto al passaggio del mouse sull'immagine nel portafoglio */
-.portfolio-box:hover img{
+.portfolio:hover img{
   filter: opacity(.1);
 }
 
 /* Effetto al passaggio del mouse sulle icone nel portafoglio */
-.portfolio-box:hover i{
+.portfolio:hover i{
   opacity: 1;
   transition: .5s .3s;
   top: 50%;
+}
+
+.text-green{
+  color: #1abc9c;
 }
